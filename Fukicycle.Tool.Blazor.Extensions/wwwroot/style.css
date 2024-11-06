@@ -1,0 +1,15 @@
+﻿:root {
+    --border-radius: 4px;
+    --border: solid 2px #F2F2F2;
+    --bg-color: rgba(242,242,242,.75);
+    --bg-backdrop-filter: blur(60px);
+    --primary-color: #EBA900;
+    --green-color: #00AA30;
+    --red-color: #FF7F7F;
+    --shadow-low: 0 2px 4px 0 rgba(0,0,0,.25);
+    --shadow-mid: 0 4px 8px 0 rgba(0,0,0,.30);
+    --shadow-high: 0 8px 16px 0 rgba(0,0,0,.35);
+    --primary-padding: 8px;
+    --primary-gap: 8px;
+    --primary-font-size: 16px;
+}
