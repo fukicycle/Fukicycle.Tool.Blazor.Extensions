@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fukicycle.Tool.Blazor.Extensions", "Fukicycle.Tool.Blazor.Extensions\Fukicycle.Tool.Blazor.Extensions.csproj", "{BC86D98F-D3DE-4AB3-B132-82853EB01129}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fukicycle.Tool.Blazor.Extensions.App", "Fukicycle.Tool.Blazor.Extensions.App\Fukicycle.Tool.Blazor.Extensions.App.csproj", "{F6B59E6B-8A3D-40C2-BD7E-EB0994AB2BAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC86D98F-D3DE-4AB3-B132-82853EB01129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC86D98F-D3DE-4AB3-B132-82853EB01129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC86D98F-D3DE-4AB3-B132-82853EB01129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B59E6B-8A3D-40C2-BD7E-EB0994AB2BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B59E6B-8A3D-40C2-BD7E-EB0994AB2BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B59E6B-8A3D-40C2-BD7E-EB0994AB2BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B59E6B-8A3D-40C2-BD7E-EB0994AB2BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

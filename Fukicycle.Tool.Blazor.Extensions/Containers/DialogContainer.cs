@@ -22,6 +22,7 @@ namespace Fukicycle.Tool.Blazor.Extensions.Containers
         public string Title { get; private set; } = string.Empty;
         public DialogType DialogType { get; private set; } = DialogType.Info;
         public DialogButton DialogButton { get; private set; } = DialogButton.OK;
+        public bool IsShow { get; private set; }
 
         public void SetDialogContent(string title, string message, DialogType dialogType, DialogButton dialogButton)
         {
@@ -29,6 +30,7 @@ namespace Fukicycle.Tool.Blazor.Extensions.Containers
             Message = message;
             DialogType = dialogType;
             DialogButton = dialogButton;
+            IsShow = true;
             OnChanged.Invoke();
         }
     }
